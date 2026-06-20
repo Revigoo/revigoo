@@ -788,9 +788,9 @@ nav{
 
 .scooter{
     position:absolute;
-    left:5%;
-    bottom:280px;
-    width:140px;
+    left:20px;
+    bottom:140px;
+    width:120px;
     z-index:50;
 }
 
@@ -798,24 +798,24 @@ nav{
 
 .bike{
     position:absolute;
-    right:5%;
-    bottom:280px;
-    width:150px;
+    right:20px;
+    bottom:140px;
+    width:135px;
     z-index:50;
 }
 
 /* Rings */
 
 .platform-blue{
-    left:2%;
-    bottom:230px;
+    left:5px;
+    bottom:95px;
     width:180px;
     height:55px;
 }
 
 .platform-orange{
-    right:2%;
-    bottom:230px;
+    right:5px;
+    bottom:95px;
     width:180px;
     height:55px;
 }
@@ -825,6 +825,7 @@ nav{
 .buttons{
     flex-direction:row;
     gap:10px;
+    margin-bottom:220px;
 }
 
 .notify,
